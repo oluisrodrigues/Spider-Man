@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: linear-gradient(#2c3156, #1b1a33);
+  background-repeat: no-repeat;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+.menu a {
+  padding: 0px 10px;
+  font-size: 1.3em;
+  text-decoration: none;
+  color: white;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.log img {
+  width: 178px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.principal {
+  margin: 0;
+  margin-right: 0px;
+  padding: 0 4%;
+  height: 100vh;
+
+  display: flex;
+}
+
+.Esquerda {
+  max-width: 50vw;
+  text-align: center;
+  color: white;
+  margin-top: 184px;
+}
+
+.Esquerda img {
+  width: 10em;
+}
+
+.Esquerda h1 {
+  font-size: 4em;
+  margin-bottom: 0.4em;
+}
+
+.Esquerda p {
+  text-align: left;
+}
+
+.Direita {
+  width: 50vw;
+}
+
+.Direita img {
+  width: 56em;
+}
+
+.itens {
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+  justify-content: center;
+}
+
+.itens > a {
+  padding: 0px 25px;
+  font-size: 1.1em;
+  text-decoration: none;
+  color: white;
+}
+
+.itens img {
+  width: 2.4em;
+  padding: 0px;
+  margin: 0px;
+}
+
+#assistir {
+  padding-left: 11px;
+}
+
+#informações {
+  border: 1px solid white;
+  border-radius: 18px;
+  padding: 15px;
+}
+
+.gg-play-button-o {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs, 1));
+  width: 22px;
+  height: 22px;
+  border: 2px solid;
+  border-radius: 20px;
+}
+.gg-play-button-o::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  width: 0;
+  height: 10px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 6px solid;
+  top: 4px;
+  left: 7px;
+}
